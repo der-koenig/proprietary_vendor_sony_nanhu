@@ -32,6 +32,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nanhu_ds/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/nanhu_ds/proprietary/bin/wiperiface:system/bin/wiperiface \
     vendor/sony/nanhu_ds/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/sony/nanhu_ds/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/sony/nanhu_ds/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/nanhu_ds/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/softmac:system/etc/firmware/ath6k/AR6003/hw2.1.1/softmac \
     vendor/sony/nanhu_ds/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin \
     vendor/sony/nanhu_ds/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin \
@@ -173,7 +175,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nanhu_ds/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/nanhu_ds/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
+    vendor/sony/nanhu_ds/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/sony/nanhu_ds/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so
 
 #libmemalloc
 #libqdutils
