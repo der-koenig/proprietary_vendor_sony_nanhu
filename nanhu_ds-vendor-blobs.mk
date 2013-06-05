@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES := \
     vendor/sony/nanhu_ds/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES += \
     vendor/sony/nanhu_ds/proprietary/bin/rild:system/bin/rild \
     vendor/sony/nanhu_ds/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/nanhu_ds/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -37,6 +38,29 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nanhu_ds/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/softmac:system/etc/firmware/ath6k/AR6003/hw2.1.1/softmac \
     vendor/sony/nanhu_ds/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin \
     vendor/sony/nanhu_ds/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin \
+    vendor/sony/nanhu_ds/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/sony/nanhu_ds/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/sony/nanhu_ds/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/sony/nanhu_ds/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/sony/nanhu_ds/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/sony/nanhu_ds/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+    vendor/sony/nanhu_ds/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    vendor/sony/nanhu_ds/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/sony/nanhu_ds/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/sony/nanhu_ds/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/sony/nanhu_ds/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/sony/nanhu_ds/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+    vendor/sony/nanhu_ds/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/sony/nanhu_ds/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/sony/nanhu_ds/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
+    vendor/sony/nanhu_ds/proprietary/lib/libbcc.so:system/lib/libbcc.so \
+    vendor/sony/nanhu_ds/proprietary/lib/libbcc.so.sha1:system/lib/libbcc.so.sha1 \
+    vendor/sony/nanhu_ds/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/sony/nanhu_ds/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+    vendor/sony/nanhu_ds/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/sony/nanhu_ds/proprietary/lib/libjpeg.so:system/lib/libjpeg.so \
+    vendor/sony/nanhu_ds/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/sony/nanhu_ds/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/sony/nanhu_ds/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/nanhu_ds/proprietary/lib/libutils.so:system/lib/libutils.so \
     vendor/sony/nanhu_ds/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
@@ -153,33 +177,3 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nanhu_ds/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/nanhu_ds/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/sony/nanhu_ds/proprietary/lib/libwms.so:system/lib/libwms.so
-
-PRODUCT_COPY_FILES += \
-    vendor/sony/nanhu_ds/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/sony/nanhu_ds/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/sony/nanhu_ds/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/sony/nanhu_ds/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/sony/nanhu_ds/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/sony/nanhu_ds/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/sony/nanhu_ds/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/sony/nanhu_ds/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/sony/nanhu_ds/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/sony/nanhu_ds/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/sony/nanhu_ds/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/sony/nanhu_ds/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/sony/nanhu_ds/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/sony/nanhu_ds/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/sony/nanhu_ds/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-    vendor/sony/nanhu_ds/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/sony/nanhu_ds/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/sony/nanhu_ds/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
-
-PRODUCT_COPY_FILES += \
-    vendor/sony/nanhu_ds/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
-    vendor/sony/nanhu_ds/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so
-
-#libmemalloc
-#libqdutils
-#libhwservices
-#libhwexternal
-#lib
