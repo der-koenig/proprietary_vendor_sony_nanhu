@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nanhu_ds/proprietary/bin/wiperiface:system/bin/wiperiface \
     vendor/sony/nanhu_ds/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/nanhu_ds/proprietary/bin/fmconfig:system/bin/fmconfig \
+    vendor/sony/nanhu_ds/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/nanhu_ds/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/softmac:system/etc/firmware/ath6k/AR6003/hw2.1.1/softmac \
     vendor/sony/nanhu_ds/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/bdata.bin \
     vendor/sony/nanhu_ds/proprietary/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/fw-4.bin \
@@ -130,6 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nanhu_ds/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/nanhu_ds/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/nanhu_ds/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
+    vendor/sony/nanhu_ds/proprietary/lib/hw/hwcomposer.msm7x27a.so:system/lib/hw/hwcomposer.msm7x27a.so \
     vendor/sony/nanhu_ds/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
     vendor/sony/nanhu_ds/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/sony/nanhu_ds/proprietary/lib/libdiag.so:system/lib/libdiag.so \
