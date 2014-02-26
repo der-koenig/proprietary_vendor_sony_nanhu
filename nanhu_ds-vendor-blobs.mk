@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nanhu_ds/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/nanhu_ds/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/sony/nanhu_ds/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/sony/nanhu_ds/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/sony/nanhu_ds/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/nanhu_ds/proprietary/bin/cnd:system/bin/cnd \
     vendor/sony/nanhu_ds/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
@@ -52,8 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nanhu_ds/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/sony/nanhu_ds/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/sony/nanhu_ds/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
-    vendor/sony/nanhu_ds/proprietary/lib/libbcc.so:system/lib/libbcc.so \
-    vendor/sony/nanhu_ds/proprietary/lib/libbcc.so.sha1:system/lib/libbcc.so.sha1 \
     vendor/sony/nanhu_ds/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/sony/nanhu_ds/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/sony/nanhu_ds/proprietary/lib/libgsl.so:system/lib/libgsl.so \
@@ -61,7 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nanhu_ds/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/sony/nanhu_ds/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/sony/nanhu_ds/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
-    vendor/sony/nanhu_ds/proprietary/lib/libutils.so:system/lib/libutils.so \
     vendor/sony/nanhu_ds/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/sony/nanhu_ds/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/sony/nanhu_ds/proprietary/lib/libchromatix_ov5647_video_hfr.so:system/lib/libchromatix_ov5647_video_hfr.so \
@@ -131,7 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nanhu_ds/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/nanhu_ds/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/nanhu_ds/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
-    vendor/sony/nanhu_ds/proprietary/lib/hw/hwcomposer.msm7x27a.so:system/lib/hw/hwcomposer.msm7x27a.so \
     vendor/sony/nanhu_ds/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
     vendor/sony/nanhu_ds/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/sony/nanhu_ds/proprietary/lib/libdiag.so:system/lib/libdiag.so \
@@ -166,7 +161,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nanhu_ds/proprietary/lib/libOmxOn2Dec.so:system/lib/libOmxOn2Dec.so \
     vendor/sony/nanhu_ds/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/sony/nanhu_ds/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
-    vendor/sony/nanhu_ds/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/sony/nanhu_ds/proprietary/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
     vendor/sony/nanhu_ds/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
     vendor/sony/nanhu_ds/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
